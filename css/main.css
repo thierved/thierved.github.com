@@ -92,20 +92,31 @@ body {
 
 nav {
 	height: 80px;
-	background-color: #eee;
+	background-color: rgba(0, 0, 0, 0.85);
 }
 
 #logo {
 	width: 10%;
+	height: 75px;
 	float: left;
+	border-radius: 100%;
+	background-color: #f6f6f6;
+	text-shadow: 1px 1px #fff, -1px -1px #555;
+}
+
+#logo a {
+	display: block;
+	width: auto;
+	font-size: 2rem;
+	padding: 20px 10px;
+	color: #f6f6f6;
 }
 
 #list-menu {
 	width: 90%;
 	float: right;
-	margin: auto;
+	margin: 10px auto;
 	padding: 0 10%;
-	border: 1px solid black;
 }
 
 #menu {
@@ -115,12 +126,21 @@ nav {
 
 #list-menu li {
 	width: 23%;
-	height: 40px;
+	height: 45px;
 	margin: 1%;
 	float: left;
 	text-align: center;
 	background-color: green;
 }
+
+#list-menu li a {
+	display: block;
+	width: 100%;
+	padding: 15px 0;
+	text-transform: uppercase;
+	color: #d3d3d3;
+}
+
 
 /************************ HEADER **********************/
 

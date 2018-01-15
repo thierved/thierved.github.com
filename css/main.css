@@ -88,6 +88,12 @@ body {
     margin: auto;
     max-width: 960px;
 }
+
+.nav-container {
+	width: 98%;
+	margin: auto;
+}
+
 /************************ NAVBAR **********************/
 
 nav {
@@ -99,10 +105,11 @@ nav {
 }
 
 #logo {
-	width: 30%;
+	width: 35%;
 	height: 75px;
+	margin-left: 5%;
 	float: left;
-	text-shadow: 1px 1px #fff, -1px -1px #555;
+	text-shadow: 1px 1px, -1px -1px rgba(255, 225, 255, 0.95);
 }
 
 #logo a {
@@ -115,7 +122,7 @@ nav {
 
 #list-menu {
 	display: none;
-	width: 70%;
+	width: 60%;
 	float: right;
 	margin: 10px auto;
 	padding: 0 10%;

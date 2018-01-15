@@ -357,8 +357,9 @@ footer {
 /************************ CONTACT ME **********************/
 
     .contact {
-        width: 33.3333%;
+        width: 30%;
         height: 60px;
+				margin-left: 3.33%;
         float: left;
     }
 

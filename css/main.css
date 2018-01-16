@@ -120,14 +120,6 @@ nav {
 	color: rgba(0, 0, 0, 0.85);
 }
 
-#list-menu {
-	display: none;
-	width: 60%;
-	float: right;
-	margin: 10px auto;
-	padding: 0 10%;
-}
-
 #menu {
 	position: absolute;
 	top: 20px;
@@ -135,24 +127,6 @@ nav {
 	font-size: 2rem;
 	padding: 5px;
 	color: #fff;
-}
-
-
-#list-menu li {
-	width: 23%;
-	height: 45px;
-	margin: 1%;
-	float: left;
-	text-align: center;
-}
-
-#list-menu li a {
-	display: block;
-	width: 100%;
-	padding: 15px 0;
-	font-size: 0.9rem;
-	text-transform: uppercase;
-	color: #d3d3d3;
 }
 
 /************************ HEADER **********************/
@@ -320,9 +294,31 @@ footer {
 		display: none;
 	}
 
- #list-menu {
-		display: block;
+
+	#list-menu {
+		width: 60%;
+		float: right;
+		margin: 10px auto;
+		padding: 0 10%;
 	}
+
+	#list-menu li {
+		width: 23%;
+		height: 45px;
+		margin: 1%;
+		float: left;
+		text-align: center;
+	}
+
+	#list-menu li a {
+		display: block;
+		width: 100%;
+		padding: 15px 0;
+		font-size: 0.9rem;
+		text-transform: uppercase;
+		color: #d3d3d3;
+	}
+
 
 	/************************ PORTFOLIO **********************/
 

@@ -154,6 +154,11 @@ nav {
 
 }
 
+.show-menu {
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+
 /************************ HEADER **********************/
 
 .description-text {
@@ -313,7 +318,7 @@ footer {
                              TABLETTE
 ==================================================================*/
 
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 625px) {
 /************************ NAV **********************/
 
 
@@ -371,6 +376,7 @@ footer {
 		font-size: 0.9rem;
 		text-transform: uppercase;
 		color: #d3d3d3;
+		background-color: inherit;
 	}
 
 

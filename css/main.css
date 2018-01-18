@@ -155,15 +155,24 @@ nav {
 }
 
 .show-menu {
-	opacity: 0;
+	display: none;
 	transition: all 0.5s ease;
 }
 
 /************************ HEADER **********************/
 
+header {
+	height: 600px;
+	background: url('../images/web-design.jpeg') no-repeat fixed;
+	background-size: cover;
+}
+
 .description-text {
-    padding: 120px 0;
-    background-color: #eee;
+    padding: 220px 0;
+}
+
+.description-text h1, .description-text h3 {
+	color: rgba(255, 255, 255, 0.92);
 }
 
 .description-text h1 {

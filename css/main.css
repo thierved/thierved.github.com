@@ -189,6 +189,35 @@ header {
     padding: 1rem 0;
 }
 
+.social-media li a {
+	border-radius: 1rem;
+}
+
+.social-media li a[class="facebook"] {
+	color: white;
+	background-color: blue;
+}
+
+.social-media li a[class="github"] {
+	color: white;
+	background-color: #3d3d3d;
+}
+
+.social-media li a[class="codepen"] {
+	color: white;
+	background-color: black;
+}
+
+.social-media li a[class="free-code-camp"] {
+	color: white;
+	background-color: green;
+}
+
+.social-media li a[class="linkedin"] {
+	color: #fff;
+	background-color: rgb(4, 113, 175);
+}
+
 /************************ PORTFOLIO **********************/
 
 #recent-projects {

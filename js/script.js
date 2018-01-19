@@ -17,6 +17,18 @@ console.log(currentHight);
       'height': '0px',
       'padding-top': '0px',
       'padding-bottom': '0px'
-    }, 500);
+    },
+    500,
+    function(){
+      $(this).removeAttr('style');
+    });
   }
+
+  $(window).resize(function() {
+    if ($(this).width() > 625 ) {
+      $('#list-menu').removeAttr('style');
+    }
+  });
+
+
 });

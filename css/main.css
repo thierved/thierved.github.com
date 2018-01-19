@@ -156,10 +156,6 @@ nav {
 
 }
 
-.show-menu {
-	display: none;
-}
-
 /************************ HEADER **********************/
 
 header {
@@ -393,6 +389,7 @@ footer {
 
 	#list-menu {
 		position: inherit;
+    height: auto;
 		width: 60%;
 		float: right;
 		margin: 10px auto;

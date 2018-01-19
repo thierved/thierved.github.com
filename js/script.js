@@ -1,8 +1,22 @@
 
 $('#menu').on('click', function(){
-  $('#list-menu').toggleClass('show-menu');
-});
+  let currentHight = $('#list-menu').height();
+console.log(currentHight);
+  if (currentHight < 200) {
 
-if ($('window').width > 625) {
-  $('#list-menu').removeClass('show-menu');
-}
+    let newHight = currentHight + 240;
+    $('#list-menu').animate({
+      'height': newHight + 'px',
+      'padding-top': '15px',
+      'padding-bottom': '20px'
+    }, 500);
+
+  } else {
+
+    $('#list-menu').animate({
+      'height': '0px',
+      'padding-top': '0px',
+      'padding-bottom': '0px'
+    }, 500);
+  }
+});

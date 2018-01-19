@@ -1,7 +1,7 @@
 
 $('#menu').on('click', function(){
   let currentHight = $('#list-menu').height();
-console.log(currentHight);
+  
   if (currentHight < 200) {
 
     let newHight = currentHight + 240;

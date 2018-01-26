@@ -194,12 +194,12 @@ header {
 
 .social-media li a[class="facebook"] {
 	color: white;
-	background-color: blue;
+	background-color: rgb(70, 84, 148);
 }
 
 .social-media li a[class="github"] {
 	color: white;
-	background-color: #3d3d3d;
+	background-color: #292D31;
 }
 
 .social-media li a[class="codepen"] {
@@ -298,10 +298,23 @@ header {
 
 /************************ CONTACT ME **********************/
 
-.contact-me .container {
+#contact-me {
+	background-color: #3d3d3d;
+	    padding: 45px 0;
+}
+
+.contact {
+	margin: 15px 0;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+dl, dt, dd {
+	width: 80%;
+	margin: auto;
 }
 
 .get-in-touch dl {
+	 	height: 100px;
     padding-bottom: 20px;
     font-size: medium;
     font-style: italic;
@@ -336,18 +349,34 @@ header {
     margin: 5px;
 }
 
+form {
+	padding: 2rem 0;
+}
 
 input, textarea, button {
     display: block;
-    width: 85%;
+    width: 100%;
     margin: auto;
     padding: 8px;
     font-size: 1.1rem;
+		border: none;
+		background-color: #eee;
 }
 
 input {
     height: 35px;
     margin-top: 7px;
+}
+
+input, textarea {
+	background-color: #afafaf;
+}
+
+button {
+	color: rgba(211, 211, 211, 0.74);;
+	border: 2px solid rgba(211, 211, 211, 0.34);
+	border-radius: 5px;
+	background-color: rgba(154, 94, 0, 0.92);
 }
 
 footer {
@@ -463,22 +492,26 @@ footer {
 
 /************************ CONTACT ME **********************/
 
-    .contact {
-        width: 30%;
-        height: 60px;
-				margin-left: 3.33%;
-        float: left;
-    }
+	dl, dt, dd {
+		width: 100%;
+	}
 
-    .social-media {
-        width: 50%;
-        margin: 60px auto;
-    }
+  .contact {
+      width: 30%;
+      height: 60px;
+			margin-left: 3.33%;
+      float: left;
+  }
 
-    footer p {
-        font-size: 1rem;
-        font-style: italic;
-    }
+  .social-media {
+      width: 50%;
+      margin: 60px auto;
+  }
+
+  footer p {
+      font-size: 1rem;
+      font-style: italic;
+  }
 
 
 

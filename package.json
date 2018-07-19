@@ -1,7 +1,7 @@
 {
   "name": "thierved.github.io",
   "version": "1.0.0",
-  "description": "This is my portfolio website.",
+  "description": "This is my porfolio webpage",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,17 +12,14 @@
   },
   "keywords": [
     "frontend",
+    "javascript",
     "html",
-    "css",
-    "javascript"
+    "css"
   ],
   "author": "Thierno Sadou Diallo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/thierved/thierved.github.io/issues"
   },
-  "homepage": "https://github.com/thierved/thierved.github.io#readme",
-  "dependencies": {
-    "gulp-sass": "^4.0.1"
-  }
+  "homepage": "https://github.com/thierved/thierved.github.io#readme"
 }

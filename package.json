@@ -1,0 +1,28 @@
+{
+  "name": "thierved.github.io",
+  "version": "1.0.0",
+  "description": "This is my portfolio website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thierved/thierved.github.io.git"
+  },
+  "keywords": [
+    "frontend",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Thierno Sadou Diallo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thierved/thierved.github.io/issues"
+  },
+  "homepage": "https://github.com/thierved/thierved.github.io#readme",
+  "dependencies": {
+    "gulp-sass": "^4.0.1"
+  }
+}

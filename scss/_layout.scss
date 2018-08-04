@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 95vh repeat(3, 200px);
+}
+
+.header {
+    background-color: #aaaaaa;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects {
+    background-color: #eeeeee;
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+}
+
+.contact {
+    background-color: #f26;
+    grid-column: 1 / -1;
+    grid-row: 3 / 4;
+}
+
+.footer {
+    background-color: #0a0a0a;
+    grid-column: 1 / -1;
+    grid-row: 4 / 5;
+}

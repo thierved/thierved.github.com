@@ -1,0 +1,29 @@
+.nav {
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        margin-right: auto;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+
+    }
+
+    &__item {
+        margin: 3rem;
+    }
+
+    &__link:link,
+    &__link:active {
+        font-size: 1.6rem;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}

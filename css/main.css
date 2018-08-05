@@ -5,9 +5,17 @@
   padding: 0;
   box-sizing: inherit; }
 
+:root {
+  --color-text: #c1c1c1; }
+
 html {
-  font-size: 60.5%;
-  box-sizing: border-box; }
+  font-size: 60.5%; }
+
+body {
+  box-sizing: border-box;
+  font-size: 1.3rem;
+  line-height: 1.7;
+  font-family: "Nunito", sans-serif; }
 
 .nav {
   height: 6rem;
@@ -21,10 +29,10 @@ html {
     justify-content: space-between;
     list-style: none; }
   .nav__item {
-    margin: 3rem; }
+    margin: 3rem;
+    color: var(--color-text); }
   .nav__link:link, .nav__link:active {
     font-size: 1.6rem;
-    font-family: sans-serif;
     text-transform: uppercase;
     text-decoration: none; }
 
@@ -34,7 +42,9 @@ html {
   grid-template-rows: 95vh repeat(3, 200px); }
 
 .header {
-  background-color: #aaaaaa;
+  background-image: linear-gradient(rgba(6, 38, 48, 0.9), rgba(11, 77, 97, 0.9)), url(../images/photo-1.jpeg);
+  background-size: cover;
+  background-position: bottom;
   grid-column: 1 / -1;
   grid-row: 1 / 2;
   display: flex;

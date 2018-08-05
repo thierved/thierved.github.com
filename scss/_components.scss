@@ -17,12 +17,12 @@
 
     &__item {
         margin: 3rem;
+        color: var(--color-text);
     }
 
     &__link:link,
     &__link:active {
         font-size: 1.6rem;
-        font-family: sans-serif;
         text-transform: uppercase;
         text-decoration: none;
     }

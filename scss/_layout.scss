@@ -5,7 +5,10 @@
 }
 
 .header {
-    background-color: #aaaaaa;
+    background-image: linear-gradient(rgba(6, 38, 48, 0.9), rgba(11, 77, 97, 0.9)),
+                                 url(../images/photo-1.jpeg);
+    background-size: cover;
+    background-position: bottom;
     grid-column: 1 / -1;
     grid-row: 1 / 2;
     display: flex;

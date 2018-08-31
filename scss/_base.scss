@@ -6,10 +6,6 @@
     box-sizing: inherit;
 }
 
-:root {
-    --color-text: #c1c1c1;
-}
-
 html {
     font-size: 60.5%;
 }
@@ -19,4 +15,5 @@ body {
     font-size: 1.3rem;
     line-height: 1.7;
     font-family: "Nunito", sans-serif;
+    color: #ccc;
 }

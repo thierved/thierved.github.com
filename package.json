@@ -4,7 +4,7 @@
   "description": "This is my porfolio webpage",
   "main": "index.js",
   "scripts": {
-    "compile-sass": "nodesass scss/main.scss css/main.css -w"
+    "compile-sass": "node-sass scss/main.scss css/main.css -w"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,7 @@
     "url": "https://github.com/thierved/thierved.github.io/issues"
   },
   "homepage": "https://github.com/thierved/thierved.github.io#readme",
-  
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
 }

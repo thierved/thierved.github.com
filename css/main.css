@@ -23,7 +23,8 @@ body {
   background-size: cover;
   color: rgba(255, 255, 255, 0.925);
   font-family: "Montserrat", sans-serif;
-  font-size: 18px; }
+  font-size: 18px;
+  position: relative; }
   .header .navigation {
     display: flex;
     justify-content: space-between;
@@ -60,6 +61,27 @@ body {
           color: rgba(255, 255, 255, 0.75);
           display: inline-block;
           width: 100%;
+          font-weight: 500;
+          letter-spacing: .2rem;
           text-transform: uppercase;
           font-size: 1.5rem;
-          padding: 0 15px; }
+          padding-bottom: .1rem; }
+        .header .navigation__menu li a:hover {
+          border-bottom: 1px solid #a95a00; }
+  .header .welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .header .welcome .primary {
+      display: block;
+      font-family: "Lato", sans-serif;
+      font-weight: 700;
+      font-size: 3rem;
+      text-transform: uppercase; }
+    .header .welcome .secondary {
+      display: block;
+      font-size: 1.5rem;
+      font-weight: 300;
+      line-height: 1.8rem;
+      color: rgba(255, 255, 255, 0.75); }

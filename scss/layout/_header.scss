@@ -6,6 +6,7 @@
     color: rgba(255, 255, 255, 0.925);
     font-family: $font-primary;
     font-size: 18px;
+    position: relative;
 
     .navigation {
         display: flex;
@@ -57,11 +58,40 @@
                     color: $color-text-secondary;
                     display: inline-block;
                     width: 100%;
+                    font-weight: 500;
+                    letter-spacing: .2rem;
                     text-transform: uppercase;
                     font-size: 1.5rem;
-                    padding: 0 15px;
+                    padding-bottom: .1rem;
+                }
+
+                a:hover {
+                    border-bottom: 1px solid darken($color-text-primary , 20%);
                 }
             }
+        }
+    }
+
+    .welcome {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        .primary {
+            display: block;
+            font-family: $font-secondary;
+            font-weight: 700;
+            font-size: 3rem;
+            text-transform: uppercase;
+        }
+
+        .secondary {
+            display: block;
+            font-size: 1.5rem;
+            font-weight: 300;
+            line-height: 1.8rem;
+            color: lighten($color-text-secondary , 25%);
         }
     }
 }

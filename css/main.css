@@ -64,10 +64,10 @@ body {
           font-weight: 500;
           letter-spacing: .2rem;
           text-transform: uppercase;
-          font-size: 1.5rem;
-          padding-bottom: .1rem; }
+          font-size: 1.3rem; }
         .header .navigation__menu li a:hover {
-          border-bottom: 1px solid #a95a00; }
+          border-bottom: 1px solid #a95a00;
+          padding-bottom: .8rem; }
   .header .welcome {
     position: absolute;
     top: 50%;

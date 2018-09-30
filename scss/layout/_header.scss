@@ -61,12 +61,12 @@
                     font-weight: 500;
                     letter-spacing: .2rem;
                     text-transform: uppercase;
-                    font-size: 1.5rem;
-                    padding-bottom: .1rem;
+                    font-size: 1.3rem;
                 }
 
                 a:hover {
                     border-bottom: 1px solid darken($color-text-primary , 20%);
+                    padding-bottom: .8rem;
                 }
             }
         }
